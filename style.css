@@ -15,14 +15,28 @@ body {
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important ;
 }
+.navbar li {
+  color: #2fcc76;
+  padding-right: 0.7rem;
+}
 .navbar-brand img {
   height: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f3fcf7;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #2fcc76;
 }
 
 /* end navbar */
 .a {
   background: #2fcc76;
 }
+
+/* 
 .narrow {
   width: 75%;
   margin: 1.5rem auto;
@@ -47,7 +61,7 @@ body {
   border-color: #189582;
   background-color: #189582;
   color: white;
-}
+} */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
