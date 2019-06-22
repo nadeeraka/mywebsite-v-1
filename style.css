@@ -36,6 +36,38 @@ body {
   background: #2fcc76;
 }
 
+/* landing page  */
+
+.home-inner {
+  background-image: url("./img/computers.png");
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  color: #f3fcf7;
+  text-transform: capitalize;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+.btn {
+  padding: 0.6rem;
+}
+
+/* end landing page  */
+
 /* 
 .narrow {
   width: 75%;
