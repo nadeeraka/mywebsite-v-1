@@ -69,6 +69,12 @@ body {
   padding: 0.6rem;
 }
 
+/* project */
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
 
 /* end landing page  */
 
