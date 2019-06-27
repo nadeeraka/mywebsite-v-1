@@ -83,7 +83,20 @@ body {
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
+  text-transform: uppercase;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #2fcc76;
+  border-color: #f6f8f7;
 }
+
+.btn-secondary:hover {
+
+  background-color:aqua
+  border-color: #f6f8f7;
+}
+
 /* end landing page  */
 
 /* 
