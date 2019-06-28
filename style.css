@@ -92,9 +92,9 @@ body {
 }
 
 .btn-secondary:hover {
-
-  background-color:aqua
-  border-color: #f6f8f7;
+  background-color: aqua;
+  border: 1px #f3fcf7;
+  color: #505962;
 }
 
 /* end landing page  */
