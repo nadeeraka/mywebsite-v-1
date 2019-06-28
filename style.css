@@ -50,6 +50,7 @@ body {
   top: 38%;
   z-index: 1;
 }
+
 .caption h1 {
   font-size: 3.8rem;
   font-weight: 700;
@@ -123,9 +124,19 @@ h3.heading {
   margin: 0 auto 2rem;
 }
 
-.feature svg.svg-inline--fa {
-  color: #2fcc76;
+.html .svg-inline--fa {
+  color: #e70f8d;
 }
+.react .svg-inline--fa {
+  color: #2d99c4;
+}
+.ng .svg-inline--fa {
+  color: #fa0e0e;
+}
+.features .svg-inline--fa {
+  color: aqua;
+}
+
 .feature h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -153,6 +164,7 @@ h3.heading {
   width: 100%;
   border-radius: 50%;
 }
+
 blockquote .svg-inline--fa {
   color: #2fcc76;
   margin: 1rem;
@@ -190,33 +202,29 @@ hr.socket {
   margin-top: 3rem;
 }
 
-/* 
-.narrow {
-  width: 75%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
-}
-.narrow h1 {
-  font-size: 2.4rem;
-}
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: 0.6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #1ebba3;
-  background-color: #1ebba3;
-  color: white;
-}
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
-} */
+/* media quires */
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 1.8rem;
 
+    text-transform: capitalize;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+  .caption h3 {
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.15rem;
+  }
+  .btn {
+    padding: 0.3rem;
+  }
+  .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
