@@ -102,6 +102,7 @@ body {
   height: 4rem;
   margin-top: -4rem;
 }
+/* end landing page  */
 
 /* features section */
 .jumbotron {
@@ -134,7 +135,7 @@ h3.heading {
   font-size: 1.1rem;
 }
 .fixed {
-  background: url("./img/apple.png");
+  background: url("./img/computers.png");
   z-index: -1;
 }
 .dark {
@@ -148,8 +149,46 @@ h3.heading {
 .fixed-background p {
   margin-top: 1.5rem;
 }
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .svg-inline--fa {
+  color: #2fcc76;
+  margin: 1rem;
+}
+.clients-hr {
+  color: #2fcc76;
+  border-top: 0.06rem solid #2fcc76;
+}
 
-/* end landing page  */
+footer {
+  background-color: #40474e;
+  color: #f3fcf7;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: #f3fcf7;
+}
+footer .svg-inline--fa {
+  font-size: 2rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+footer .svg-inline--fa:hover {
+  color: #1ebba3 !important;
+}
+hr.socket {
+  width: 100%;
+  margin-top: 0.2rem;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
+}
 
 /* 
 .narrow {
